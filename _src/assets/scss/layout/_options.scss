@@ -1,4 +1,6 @@
-.options-background {background-color: $color-background-options;}
+.options-background {
+  background-color: $color-background-options;
+}
 
 .options-container {
   display: grid;
@@ -40,6 +42,8 @@
     font-weight: bold;
   }
 
-& .button-container {margin: auto;}
+  & .button-container {
+    margin: auto;
+  }
 
 }

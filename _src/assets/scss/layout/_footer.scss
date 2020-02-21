@@ -1,0 +1,38 @@
+.footer-background {
+  background-color: $color-background-footer;
+  padding-bottom: 50px;
+}
+
+.footer-container {
+  @include text-footer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-button {
+  margin-top: -35px;
+  height: 45px;
+  width: 45px;
+  background-color: $color-background-main;
+  background: white;
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  img {
+    size: 100%;
+  }
+}
+
+.container-footer-links {
+  padding-top: 50px;
+}
+
+.heart {
+  color: $color-details;
+}
