@@ -12,10 +12,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-   
+
   }
 
-  .hero-menu {}
+
 
   .hero-text-button {
     height: 100%;
@@ -29,7 +29,7 @@
     align-items: center;
     padding-bottom: 53px;
 
-   
+
 
     & h1 {
       font-size: 42px;
@@ -39,7 +39,7 @@
 
     & p {
       font-size: 16px;
-      font-family:$font-secundary;
+      font-family: $font-secundary;
       padding-bottom: 53px;
     }
 
@@ -53,12 +53,30 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      
+
 
       img {
         size: 100%;
       }
     }
 
+  }
+}
+
+
+@media (min-width: 768px) {
+  .hero-container {
+    .hero-text-button {
+      & h1 {
+        font-size: 80px;
+        line-height: 106px;
+       
+      }
+
+      & p {
+        font-size: 24px;
+        padding-bottom: 53px;
+      }
+    }
   }
 }

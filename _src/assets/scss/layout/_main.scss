@@ -9,7 +9,7 @@
 
   & h2 {
     @include tittle-page;
- 
+
   }
 
   & p {
@@ -18,7 +18,9 @@
     font-family: $font-secundary;
     line-height: 30px;
   }
-  & a {    height: 45px;
+
+  & a {
+    height: 45px;
     width: 76px;
     font-size: 20px;
     font-family: $font-secundary;
@@ -32,5 +34,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;}
+    font-weight: bold;
+  }
+
+  & a:hover {
+    background-color: $color-details;
+    background: $color-details;
+    color: $color-background-main;
+    border-radius: 50px;
+    border: solid 2px;
+    border-color: $color-details;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .main-container {
+
+
+    & h2 {
+      @include tittle-page-tablet;
+
+    }
+
+    & p {
+
+      font-size: 20px;
+
+    }
+
+    & a {
+        
+        width: 91px;
+  
+      }
+
+  }
 }
