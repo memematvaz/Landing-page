@@ -1,0 +1,16 @@
+.header-menu {
+  .header-button {height: 45px;
+    width: 45px;
+    background-color: $color-background-footer;
+    background: $color-background-footer;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    img {
+      size: 100%;
+    }}
+}

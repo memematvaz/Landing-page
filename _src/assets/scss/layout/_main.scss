@@ -1,0 +1,36 @@
+.main-container {
+
+
+  .main-small {
+    color: #8ccbea;
+    font-size: 14px;
+    font-family: $font-secundary;
+  }
+
+  & h2 {
+    @include tittle-page;
+ 
+  }
+
+  & p {
+    color: #4a4a4a;
+    font-size: 18px;
+    font-family: $font-secundary;
+    line-height: 30px;
+  }
+  & a {    height: 45px;
+    width: 76px;
+    font-size: 20px;
+    font-family: $font-secundary;
+    background-color: $color-background-main;
+    background: $color-background-main;
+    color: $color-details;
+    border-radius: 50px;
+    border: solid 2px;
+    border-color: $color-details;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;}
+}
