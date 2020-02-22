@@ -65,10 +65,17 @@
     }
 
     & a {
-        
-        width: 91px;
-  
-      }
 
+      width: 91px;
+
+    }
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-container {
+    max-width: 730px;
+    margin: auto;
   }
 }
