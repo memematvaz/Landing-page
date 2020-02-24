@@ -58,10 +58,25 @@
       img {
         size: 100%;
       }
+
+
     }
+
+
 
   }
 }
+
+.hero-text-button a:focus {
+  border-radius: 5px;
+  border: 5px solid rgba(107, 112, 113, 0.3);
+}
+
+.hero-text-button a:active {
+  border-radius: 5px;
+  border: 5px solid rgba(107, 112, 113, 0.3);
+}
+
 
 
 @media (min-width: 768px) {
@@ -70,7 +85,7 @@
       & h1 {
         font-size: 80px;
         line-height: 106px;
-       
+
       }
 
       & p {

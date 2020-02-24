@@ -25,7 +25,6 @@
     font-size: 20px;
     font-family: $font-secundary;
     background-color: $color-background-main;
-    background: $color-background-main;
     color: $color-details;
     border-radius: 50px;
     border: solid 2px;
@@ -37,9 +36,22 @@
     font-weight: bold;
   }
 
+  & a:active {
+    font-family: $font-secundary;
+    background-color: $color-background-main;
+    color: $color-details;
+  }
+
   & a:hover {
     background-color: $color-details;
-    background: $color-details;
+    color: $color-background-main;
+    border-radius: 50px;
+    border: solid 2px;
+    border-color: $color-details;
+  }
+
+  & a:focus {
+    background-color: $color-details;
     color: $color-background-main;
     border-radius: 50px;
     border: solid 2px;
